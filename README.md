@@ -2,7 +2,7 @@
 <h1>기술스택</h1>
 <div><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"/> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"/></div>
 <h2>영상</h2>
-<img src="https://github.com/nogal2/simple_project/assets/94533750/a66b3331-e29d-4f11-bee2-363c137b4efa" style="max-width:200px; height:auto;" />
+<img src="https://github.com/nogal2/simple_project/assets/94533750/a66b3331-e29d-4f11-bee2-363c137b4efa" style="width:200px; height:auto;" />
 <h2>첫 화면을 시작할때, 로그인 인증 과정을 GoRouter의 redirect와 riverpod을 활용해 관리하는 것을 글로 적어놨습니다. 이 과정은 참고용이므로 실제 과제에 대한 로직을 보시려면 <a href="https://github.com/nogal2/simple_project/blob/main/lib/common/view/root_tab.dart" >여기</a>부터 보시면 됩니다.</h2>
 
 
