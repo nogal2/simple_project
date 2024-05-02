@@ -17,4 +17,4 @@
 <h2>other_user</h2>
 <p>brand와 같이 항목별로 체크할수 있도록 해놨습니다. 이곳은 currentPage가 totalPages보다 작아 페이징이 가능하여 페이징 인디케이터가 나옵니다. 실제 파라미터를 넘길수 있다면, 다음 페이지가 나오도록 적용을 해놨습니다. 이 페이지는 <a href="https://github.com/nogal2/simple_project/blob/main/lib/other_user/view/other_user_screen.dart">other_user_screen</a>입니다. </p>
 
-<h1>페이징 처리 비즈니스 로직은 <a href="https://github.com/nogal2/simple_project/blob/main/lib/common/provider/pagination_base_provider.dart">pagination_base_provider</a> 입니다.</h1>
+<h3>페이징 처리 비즈니스 로직은 <a href="https://github.com/nogal2/simple_project/blob/main/lib/common/provider/pagination_base_provider.dart">pagination_base_provider</a> 입니다.</h3>
