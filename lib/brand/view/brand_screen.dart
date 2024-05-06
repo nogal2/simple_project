@@ -3,6 +3,7 @@ import 'package:mustad_test/brand/model/brand_model.dart';
 import 'package:mustad_test/brand/provider/brand_provider.dart';
 import 'package:mustad_test/common/component/pagination/pagination_list_view.dart';
 import 'package:mustad_test/common/const/colors.dart';
+import 'package:mustad_test/common/model/pagination_base_model.dart';
 
 class BrandScreen extends StatefulWidget {
   const BrandScreen({super.key});
@@ -18,7 +19,7 @@ class _BrandScreenState extends State<BrandScreen> {
   Widget build(BuildContext context) {
     return PaginationListView<BrandModel>(
       provider: brandProvider,
-      itemBuilder:<BrandModel> (_, __, model) {
+      itemBuilder: (_, __, model) {
         return _BrandItem(
           model: model,
           onChanged: (bool? value) {

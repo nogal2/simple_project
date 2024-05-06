@@ -21,12 +21,12 @@ class PaginationListView<T extends PaginationModelItemBase>
   });
 
   @override
-  ConsumerState<PaginationListView> createState() =>
+  ConsumerState<PaginationListView<T>> createState() =>
       _PaginationLayoutState<T>();
 }
 
 class _PaginationLayoutState<T extends PaginationModelItemBase>
-    extends ConsumerState<PaginationListView> {
+    extends ConsumerState<PaginationListView<T>> {
   final ScrollController controller = ScrollController();
 
   @override
